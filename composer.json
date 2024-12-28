@@ -50,7 +50,7 @@
         "ghostwriter/coding-standard": "dev-main",
         "ghostwriter/psalm-plugin": "dev-main"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
