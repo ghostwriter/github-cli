@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a01426fffdcb7ded5d3199bebff9dcf",
+    "content-hash": "6c57f52b58df03614ac528b47905d567",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -382,29 +382,28 @@
         },
         {
             "name": "ghostwriter/option",
-            "version": "1.6.x-dev",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/option.git",
-                "reference": "1b79bd9c0159c453a18811d83d0b8fb9bdf28a0c"
+                "reference": "126c6ef6a87d0256a4806c2ef4e8985741a07577"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/option/zipball/1b79bd9c0159c453a18811d83d0b8fb9bdf28a0c",
-                "reference": "1b79bd9c0159c453a18811d83d0b8fb9bdf28a0c",
+                "url": "https://api.github.com/repos/ghostwriter/option/zipball/126c6ef6a87d0256a4806c2ef4e8985741a07577",
+                "reference": "126c6ef6a87d0256a4806c2ef4e8985741a07577",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.3"
+                "php": ">=8.1,<8.4"
             },
             "require-dev": {
-                "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/psalm-plugin": "dev-main"
+                "ghostwriter/coding-standard": "dev-main"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ghostwriter\\Option\\": "src"
+                    "Ghostwriter\\Option\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -426,9 +425,10 @@
                 "option"
             ],
             "support": {
+                "docs": "https://github.com/ghostwriter/option",
+                "forum": "https://github.com/ghostwriter/option/discussions",
                 "issues": "https://github.com/ghostwriter/option/issues",
                 "rss": "https://github.com/ghostwriter/option/releases.atom",
-                "security": "https://github.com/ghostwriter/option/security/advisories/new",
                 "source": "https://github.com/ghostwriter/option"
             },
             "funding": [
@@ -437,7 +437,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-20T19:45:42+00:00"
+            "time": "2023-07-05T19:51:28+00:00"
         },
         {
             "name": "ghostwriter/plex",
@@ -4734,7 +4734,7 @@
     "platform": {
         "php": ">=8.3"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.3.999"
     },
