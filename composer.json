@@ -47,8 +47,7 @@
         "ghostwriter/shell": "^0.1.0"
     },
     "require-dev": {
-        "ghostwriter/coding-standard": "dev-main",
-        "ghostwriter/psalm-plugin": "dev-main"
+        "ghostwriter/coding-standard": "dev-main"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
