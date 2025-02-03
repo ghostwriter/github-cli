@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "231876970e31b51581cfe3613ad3ce64",
+    "content-hash": "bcc2748f6c0fe442c50020f5002d695f",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -145,22 +145,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/config.git",
-                "reference": "1f270f74fabd9b4587df405aed3c077c1b689eef"
+                "reference": "40ff68db000653c04853f09f4711faea89fa28db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/config/zipball/1f270f74fabd9b4587df405aed3c077c1b689eef",
-                "reference": "1f270f74fabd9b4587df405aed3c077c1b689eef",
+                "url": "https://api.github.com/repos/ghostwriter/config/zipball/40ff68db000653c04853f09f4711faea89fa28db",
+                "reference": "40ff68db000653c04853f09f4711faea89fa28db",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.3"
+                "php": ">=8.4"
             },
             "require-dev": {
-                "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/psalm-plugin": "dev-main"
+                "ghostwriter/coding-standard": "dev-main"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -197,7 +195,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-27T06:52:15+00:00"
+            "time": "2025-02-03T14:16:53+00:00"
         },
         {
             "name": "ghostwriter/container",
@@ -382,28 +380,29 @@
         },
         {
             "name": "ghostwriter/option",
-            "version": "1.5.1",
+            "version": "1.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/option.git",
-                "reference": "126c6ef6a87d0256a4806c2ef4e8985741a07577"
+                "reference": "d25a564d37b6502515aa83bbc882c6aca08dfe98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/option/zipball/126c6ef6a87d0256a4806c2ef4e8985741a07577",
-                "reference": "126c6ef6a87d0256a4806c2ef4e8985741a07577",
+                "url": "https://api.github.com/repos/ghostwriter/option/zipball/d25a564d37b6502515aa83bbc882c6aca08dfe98",
+                "reference": "d25a564d37b6502515aa83bbc882c6aca08dfe98",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1,<8.4"
+                "php": ">=8.3"
             },
             "require-dev": {
-                "ghostwriter/coding-standard": "dev-main"
+                "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/psalm-plugin": "dev-main"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ghostwriter\\Option\\": "src/"
+                    "Ghostwriter\\Option\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -425,10 +424,9 @@
                 "option"
             ],
             "support": {
-                "docs": "https://github.com/ghostwriter/option",
-                "forum": "https://github.com/ghostwriter/option/discussions",
                 "issues": "https://github.com/ghostwriter/option/issues",
                 "rss": "https://github.com/ghostwriter/option/releases.atom",
+                "security": "https://github.com/ghostwriter/option/security/advisories/new",
                 "source": "https://github.com/ghostwriter/option"
             },
             "funding": [
@@ -437,7 +435,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-05T19:51:28+00:00"
+            "time": "2025-01-17T03:52:49+00:00"
         },
         {
             "name": "ghostwriter/plex",
@@ -501,24 +499,25 @@
         },
         {
             "name": "ghostwriter/result",
-            "version": "1.3.0",
+            "version": "1.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/result.git",
-                "reference": "e922fe4cf5a5dc6b9e5a1f72bbfbe4ab7d630864"
+                "reference": "a35655d4b9b3a3c26ec3ead2b590948d9311e03e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/result/zipball/e922fe4cf5a5dc6b9e5a1f72bbfbe4ab7d630864",
-                "reference": "e922fe4cf5a5dc6b9e5a1f72bbfbe4ab7d630864",
+                "url": "https://api.github.com/repos/ghostwriter/result/zipball/a35655d4b9b3a3c26ec3ead2b590948d9311e03e",
+                "reference": "a35655d4b9b3a3c26ec3ead2b590948d9311e03e",
                 "shasum": ""
             },
             "require": {
                 "ghostwriter/option": "^1.5.1",
-                "php": ">=8.1,<8.4"
+                "php": ">=8.3"
             },
             "require-dev": {
-                "ghostwriter/coding-standard": "dev-main"
+                "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/psalm-plugin": "^0.2.0"
             },
             "type": "library",
             "autoload": {
@@ -549,6 +548,7 @@
                 "forum": "https://github.com/ghostwriter/result/discussions",
                 "issues": "https://github.com/ghostwriter/result/issues",
                 "rss": "https://github.com/ghostwriter/result/releases.atom",
+                "security": "https://github.com/ghostwriter/result/security/advisories/new",
                 "source": "https://github.com/ghostwriter/result"
             },
             "funding": [
@@ -557,7 +557,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-06T01:18:31+00:00"
+            "time": "2024-08-31T18:58:50+00:00"
         },
         {
             "name": "ghostwriter/shell",
@@ -2362,29 +2362,49 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "a395065e178551271c93c7099fede9a66773f7d5"
+                "reference": "182b87898234ddc54371babb90399057c59f0e49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/a395065e178551271c93c7099fede9a66773f7d5",
-                "reference": "a395065e178551271c93c7099fede9a66773f7d5",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/182b87898234ddc54371babb90399057c59f0e49",
+                "reference": "182b87898234ddc54371babb90399057c59f0e49",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.6.0",
                 "composer-runtime-api": "^2.2.2",
                 "composer/composer": "^2.8.5",
+                "composer/semver": "^3.4.3",
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-filter": "*",
+                "ext-gd": "*",
+                "ext-hash": "*",
+                "ext-iconv": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-phar": "*",
+                "ext-readline": "*",
+                "ext-session": "*",
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
                 "mockery/mockery": "^1.6.12",
                 "php": "^8.2",
                 "phpunit/phpunit": "^11.5.6",
                 "symfony/var-dumper": "^7.2.3",
-                "vimeo/psalm": "^6.1.0"
+                "vimeo/psalm": "^6.2.0"
             },
             "conflict": {
                 "vimeo/psalm": "<6.0"
             },
             "require-dev": {
-                "ghostwriter/container": "^4.0.3",
+                "ghostwriter/container": "^4.0.5",
                 "ghostwriter/filesystem": "^0.1.1",
                 "ghostwriter/shell": "^0.1.0"
             },
@@ -2439,7 +2459,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-31T09:19:20+00:00"
+            "time": "2025-02-03T17:29:30+00:00"
         },
         {
             "name": "ghostwriter/psalm-plugin",
@@ -6661,16 +6681,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.1.0",
+            "version": "6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "827971f8bc7a28bb4f842f34bf8901521de1cea3"
+                "reference": "814dfde37b43a1fe6d9b0996e08b19661af53bc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/827971f8bc7a28bb4f842f34bf8901521de1cea3",
-                "reference": "827971f8bc7a28bb4f842f34bf8901521de1cea3",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/814dfde37b43a1fe6d9b0996e08b19661af53bc5",
+                "reference": "814dfde37b43a1fe6d9b0996e08b19661af53bc5",
                 "shasum": ""
             },
             "require": {
@@ -6772,7 +6792,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2025-01-30T19:33:41+00:00"
+            "time": "2025-02-01T16:30:21+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -6838,7 +6858,9 @@
     "stability-flags": {
         "ghostwriter/coding-standard": 20,
         "ghostwriter/config": 20,
-        "ghostwriter/psalm-plugin": 20
+        "ghostwriter/option": 20,
+        "ghostwriter/psalm-plugin": 20,
+        "ghostwriter/result": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -6847,7 +6869,7 @@
     },
     "platform-dev": {},
     "platform-overrides": {
-        "php": "8.3.999"
+        "php": "8.4.999"
     },
     "plugin-api-version": "2.6.0"
 }
