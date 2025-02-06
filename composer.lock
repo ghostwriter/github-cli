@@ -384,20 +384,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/option.git",
-                "reference": "d25a564d37b6502515aa83bbc882c6aca08dfe98"
+                "reference": "1ad8db1ae6a010e0947557925366a6704838d286"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/option/zipball/d25a564d37b6502515aa83bbc882c6aca08dfe98",
-                "reference": "d25a564d37b6502515aa83bbc882c6aca08dfe98",
+                "url": "https://api.github.com/repos/ghostwriter/option/zipball/1ad8db1ae6a010e0947557925366a6704838d286",
+                "reference": "1ad8db1ae6a010e0947557925366a6704838d286",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.3"
             },
             "require-dev": {
-                "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/psalm-plugin": "dev-main"
+                "ghostwriter/coding-standard": "dev-main"
             },
             "type": "library",
             "autoload": {
@@ -435,7 +434,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-17T03:52:49+00:00"
+            "time": "2025-02-04T01:44:52+00:00"
         },
         {
             "name": "ghostwriter/plex",
@@ -1508,16 +1507,16 @@
         },
         {
             "name": "composer/class-map-generator",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/class-map-generator.git",
-                "reference": "4b0a223cf5be7c9ee7e0ef1bc7db42b4a97c9915"
+                "reference": "ffe442c5974c44a9343e37a0abcb1cc37319f5b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/4b0a223cf5be7c9ee7e0ef1bc7db42b4a97c9915",
-                "reference": "4b0a223cf5be7c9ee7e0ef1bc7db42b4a97c9915",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/ffe442c5974c44a9343e37a0abcb1cc37319f5b9",
+                "reference": "ffe442c5974c44a9343e37a0abcb1cc37319f5b9",
                 "shasum": ""
             },
             "require": {
@@ -1561,7 +1560,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/class-map-generator/issues",
-                "source": "https://github.com/composer/class-map-generator/tree/1.5.0"
+                "source": "https://github.com/composer/class-map-generator/tree/1.6.0"
             },
             "funding": [
                 {
@@ -1577,7 +1576,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-25T16:11:06+00:00"
+            "time": "2025-02-05T10:05:34+00:00"
         },
         {
             "name": "composer/composer",
@@ -2362,12 +2361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "9e81c5b90172dae5e1e52668cdc9124b7860320d"
+                "reference": "17aea441606915c479f2bdface2020d1b79cd03d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/9e81c5b90172dae5e1e52668cdc9124b7860320d",
-                "reference": "9e81c5b90172dae5e1e52668cdc9124b7860320d",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/17aea441606915c479f2bdface2020d1b79cd03d",
+                "reference": "17aea441606915c479f2bdface2020d1b79cd03d",
                 "shasum": ""
             },
             "require": {
@@ -2391,14 +2390,17 @@
                 "ext-readline": "*",
                 "ext-session": "*",
                 "ext-simplexml": "*",
+                "ext-sockets": "*",
+                "ext-sodium": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
+                "ext-zlib": "*",
                 "mockery/mockery": "^1.6.12",
                 "php": "^8.2",
                 "phpunit/phpunit": "^11.5.6",
                 "symfony/var-dumper": "^7.2.3",
-                "vimeo/psalm": "^6.2.0"
+                "vimeo/psalm": "^6.3.0"
             },
             "conflict": {
                 "vimeo/psalm": "<6.0"
@@ -2459,7 +2461,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-03T20:34:41+00:00"
+            "time": "2025-02-05T04:45:37+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -6606,16 +6608,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.2.0",
+            "version": "6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "814dfde37b43a1fe6d9b0996e08b19661af53bc5"
+                "reference": "04f312ac6ea48ba1c3e5db4d815bf6d74641c0ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/814dfde37b43a1fe6d9b0996e08b19661af53bc5",
-                "reference": "814dfde37b43a1fe6d9b0996e08b19661af53bc5",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/04f312ac6ea48ba1c3e5db4d815bf6d74641c0ee",
+                "reference": "04f312ac6ea48ba1c3e5db4d815bf6d74641c0ee",
                 "shasum": ""
             },
             "require": {
@@ -6673,6 +6675,7 @@
                 "psalm-language-server",
                 "psalm-plugin",
                 "psalm-refactor",
+                "psalm-review",
                 "psalter"
             ],
             "type": "project",
@@ -6717,7 +6720,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2025-02-01T16:30:21+00:00"
+            "time": "2025-02-05T12:31:01+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -6791,7 +6794,7 @@
     "platform": {
         "php": ">=8.3"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.4.999"
     },
