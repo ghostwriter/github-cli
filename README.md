@@ -1,4 +1,4 @@
-# GitHub CLI
+# Github Cli
 
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/github-cli&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
 [![Automation](https://github.com/ghostwriter/github-cli/actions/workflows/automation.yml/badge.svg)](https://github.com/ghostwriter/github-cli/actions/workflows/automation.yml)
