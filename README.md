@@ -1,22 +1,18 @@
-# Wip
+# GitHub CLI
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/wip&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
-[![Automation](https://github.com/ghostwriter/wip/actions/workflows/automation.yml/badge.svg)](https://github.com/ghostwriter/wip/actions/workflows/automation.yml)
-[![Supported PHP Version](https://badgen.net/packagist/php/ghostwriter/wip?color=8892bf)](https://www.php.net/supported-versions)
-[![Downloads](https://badgen.net/packagist/dt/ghostwriter/wip?color=blue)](https://packagist.org/packages/ghostwriter/wip)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/github-cli&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
+[![Automation](https://github.com/ghostwriter/github-cli/actions/workflows/automation.yml/badge.svg)](https://github.com/ghostwriter/github-cli/actions/workflows/automation.yml)
+[![Supported PHP Version](https://badgen.net/packagist/php/ghostwriter/github-cli?color=8892bf)](https://www.php.net/supported-versions)
+[![Downloads](https://badgen.net/packagist/dt/ghostwriter/github-cli?color=blue)](https://packagist.org/packages/ghostwriter/github-cli)
 
-work in progress
-
-> [!WARNING]
->
-> This project is not finished yet, work in progress.
+PHP wrapper for GitHub CLI (`gh`).
 
 ## Installation
 
 You can install the package via composer:
 
 ``` bash
-composer require ghostwriter/wip
+composer require ghostwriter/github-cli
 ```
 
 ### Star ⭐️ this repo if you find it useful
@@ -25,9 +21,34 @@ You can also star (🌟) this repo to find it easier later.
 
 ## Usage
 
-```php
-// work in progress
+Every method accepts variadic `string ...$arguments`
+
+This means:
+
+* Arguments are passed exactly like the CLI
+* No escaping issues
+
+Example:
+
+```sh
+gh issue create --title "Bug" --body "Something broke"
 ```
+
+Becomes:
+
+```php
+$gh = \Ghostwriter\GitHubCli\GitHubCli::new();
+
+$result = $gh->issueCreate('--title', 'Bug', '--body', 'Something broke');
+
+$result->exitCode(); // int
+$result->stdout();   // string
+$result->stderr();   // string
+```
+
+### Documentation
+
+Please see [docs/](./docs/) for more information on how to use this package.
 
 ### Credits
 

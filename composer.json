@@ -1,11 +1,13 @@
 {
-    "name": "ghostwriter/wip",
-    "description": "Here be dragons",
+    "name": "ghostwriter/github-cli",
+    "description": "PHP wrapper for GitHub CLI (gh)",
     "license": "BSD-4-Clause",
     "type": "library",
     "keywords": [
         "ghostwriter",
-        "wip"
+        "github-cli",
+        "github",
+        "gh"
     ],
     "authors": [
         {
@@ -15,12 +17,12 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/ghostwriter/wip",
+    "homepage": "https://github.com/ghostwriter/github-cli",
     "support": {
-        "issues": "https://github.com/ghostwriter/wip/issues",
-        "source": "https://github.com/ghostwriter/wip",
-        "rss": "https://github.com/ghostwriter/wip/releases.atom",
-        "security": "https://github.com/ghostwriter/wip/security/advisories/new"
+        "issues": "https://github.com/ghostwriter/github-cli/issues",
+        "source": "https://github.com/ghostwriter/github-cli",
+        "rss": "https://github.com/ghostwriter/github-cli/releases.atom",
+        "security": "https://github.com/ghostwriter/github-cli/security/advisories/new"
     },
     "funding": [
         {
@@ -37,19 +39,8 @@
     "require": {
         "php": "~8.4.0 || ~8.5.0",
         "ext-mbstring": "*",
-        "ghostwriter/case-converter": "^2.2.0",
-        "ghostwriter/clock": "^3.0.1",
-        "ghostwriter/collection": "^2.0.0",
-        "ghostwriter/config": "^2.0.2",
-        "ghostwriter/console": "^0.1.2",
         "ghostwriter/container": "^6.0.1",
-        "ghostwriter/event-dispatcher": "^6.0.2",
-        "ghostwriter/filesystem": "^0.1.2",
-        "ghostwriter/json": "^3.0.1",
-        "ghostwriter/option": "^2.0.0",
-        "ghostwriter/result": "^2.0.0",
-        "ghostwriter/shell": "^0.1.1",
-        "ghostwriter/uuid": "^1.0.3"
+        "ghostwriter/shell": "^0.1.1"
     },
     "require-dev": {
         "ext-xdebug": "*",
@@ -61,12 +52,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Ghostwriter\\Wip\\": "src"
-        },
-        "files": [
-            "src/constants.php",
-            "src/functions.php"
-        ]
+            "Ghostwriter\\GitHubCli\\": "src"
+        }
     },
     "autoload-dev": {
         "psr-4": {
@@ -78,10 +65,6 @@
         ],
         "exclude-from-classmap": ["/tests/"]
     },
-    "bin": [
-        "bin/console",
-        "bin/console.php"
-    ],
     "config": {
         "allow-plugins": {
             "ghostwriter/coding-standard": true
@@ -103,12 +86,12 @@
     "extra": {
         "ghostwriter": {
             "container": {
-                "definition": "Ghostwriter\\Wip\\Container\\WipDefinition"
+                "definition": "Ghostwriter\\GitHubCli\\Container\\GitHubCliDefinition"
             }
         },
         "thanks": {
-            "name": "ghostwriter/wip",
-            "url": "https://github.com/ghostwriter/wip"
+            "name": "ghostwriter/github-cli",
+            "url": "https://github.com/ghostwriter/github-cli"
         }
     },
     "scripts": {
