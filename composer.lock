@@ -4,82 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57c9455df439fe3fac0f583bd22c71f2",
+    "content-hash": "c3cdb9d331f4a6ed8859bc7340b216f1",
     "packages": [
-        {
-            "name": "ghostwriter/config",
-            "version": "2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/config.git",
-                "reference": "27a8517b8b344e9744262357c4cc6246ba9b73f4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/config/zipball/27a8517b8b344e9744262357c4cc6246ba9b73f4",
-                "reference": "27a8517b8b344e9744262357c4cc6246ba9b73f4",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~8.4.0 || ~8.5.0"
-            },
-            "require-dev": {
-                "ext-xdebug": "*",
-                "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/container": "^6.0.1",
-                "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^12.5.3",
-                "symfony/var-dumper": "^8.0.0"
-            },
-            "type": "library",
-            "extra": {
-                "thanks": {
-                    "url": "https://github.com/ghostwriter/config",
-                    "name": "ghostwriter/config"
-                },
-                "ghostwriter": {
-                    "container": {
-                        "definition": "Ghostwriter\\Config\\Container\\ConfigurationDefinition"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ghostwriter\\Config\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-4-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Provides an object that maps configuration keys to values.",
-            "homepage": "https://github.com/ghostwriter/config",
-            "keywords": [
-                "config",
-                "ghostwriter"
-            ],
-            "support": {
-                "issues": "https://github.com/ghostwriter/config/issues",
-                "rss": "https://github.com/ghostwriter/config/releases.atom",
-                "security": "https://github.com/ghostwriter/config/security/advisories/new",
-                "source": "https://github.com/ghostwriter/config"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-12-14T23:37:43+00:00"
-        },
         {
             "name": "ghostwriter/container",
             "version": "6.0.1",
@@ -152,83 +78,6 @@
                 }
             ],
             "time": "2025-11-18T05:56:22+00:00"
-        },
-        {
-            "name": "ghostwriter/event-dispatcher",
-            "version": "6.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/event-dispatcher.git",
-                "reference": "812d1be3c2850d9901a1e471dd2c0e20bbd15b2a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/812d1be3c2850d9901a1e471dd2c0e20bbd15b2a",
-                "reference": "812d1be3c2850d9901a1e471dd2c0e20bbd15b2a",
-                "shasum": ""
-            },
-            "require": {
-                "ghostwriter/container": "^6.0.1",
-                "php": "~8.4.0 || ~8.5.0",
-                "psr/event-dispatcher": "^1.0.0"
-            },
-            "provide": {
-                "psr/event-dispatcher-implementation": "*"
-            },
-            "require-dev": {
-                "ext-xdebug": "*",
-                "ghostwriter/coding-standard": "dev-main",
-                "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^12.4.4",
-                "symfony/var-dumper": "^7.3.5"
-            },
-            "type": "library",
-            "extra": {
-                "ghostwriter": {
-                    "container": {
-                        "definition": "Ghostwriter\\EventDispatcher\\Container\\EventDispatcherDefinition"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ghostwriter\\EventDispatcher\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-4-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Event Dispatcher implementation.",
-            "homepage": "https://github.com/ghostwriter/event-dispatcher",
-            "keywords": [
-                "event-dispatcher",
-                "events",
-                "ghostwriter",
-                "psr",
-                "psr-14"
-            ],
-            "support": {
-                "issues": "https://github.com/ghostwriter/event-dispatcher/issues",
-                "rss": "https://github.com/ghostwriter/event-dispatcher/releases.atom",
-                "security": "https://github.com/ghostwriter/event-dispatcher/security/advisories/new",
-                "source": "https://github.com/ghostwriter/event-dispatcher"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-11-23T22:18:37+00:00"
         },
         {
             "name": "ghostwriter/shell",
@@ -353,56 +202,6 @@
                 "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
             "time": "2021-11-05T16:47:00+00:00"
-        },
-        {
-            "name": "psr/event-dispatcher",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/event-dispatcher.git",
-                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
-                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\EventDispatcher\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Standard interfaces for event handling.",
-            "keywords": [
-                "events",
-                "psr",
-                "psr-14"
-            ],
-            "support": {
-                "issues": "https://github.com/php-fig/event-dispatcher/issues",
-                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
-            },
-            "time": "2019-01-08T18:20:26+00:00"
         }
     ],
     "packages-dev": [
@@ -1217,6 +1016,80 @@
                 }
             ],
             "time": "2026-01-01T01:56:11+00:00"
+        },
+        {
+            "name": "ghostwriter/config",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ghostwriter/config.git",
+                "reference": "27a8517b8b344e9744262357c4cc6246ba9b73f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ghostwriter/config/zipball/27a8517b8b344e9744262357c4cc6246ba9b73f4",
+                "reference": "27a8517b8b344e9744262357c4cc6246ba9b73f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~8.4.0 || ~8.5.0"
+            },
+            "require-dev": {
+                "ext-xdebug": "*",
+                "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/container": "^6.0.1",
+                "mockery/mockery": "^1.6.12",
+                "phpunit/phpunit": "^12.5.3",
+                "symfony/var-dumper": "^8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/ghostwriter/config",
+                    "name": "ghostwriter/config"
+                },
+                "ghostwriter": {
+                    "container": {
+                        "definition": "Ghostwriter\\Config\\Container\\ConfigurationDefinition"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ghostwriter\\Config\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nathanael Esayeas",
+                    "email": "nathanael.esayeas@protonmail.com",
+                    "homepage": "https://github.com/ghostwriter",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides an object that maps configuration keys to values.",
+            "homepage": "https://github.com/ghostwriter/config",
+            "keywords": [
+                "config",
+                "ghostwriter"
+            ],
+            "support": {
+                "issues": "https://github.com/ghostwriter/config/issues",
+                "rss": "https://github.com/ghostwriter/config/releases.atom",
+                "security": "https://github.com/ghostwriter/config/security/advisories/new",
+                "source": "https://github.com/ghostwriter/config"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/ghostwriter",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-12-14T23:37:43+00:00"
         },
         {
             "name": "ghostwriter/console",
