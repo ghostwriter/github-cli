@@ -836,12 +836,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "c6b0b0c91398d0588f44d8f1ed5397a0a73b1286"
+                "reference": "1eb9ebafaf68b956af301367c9bea7c331a4f5b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/c6b0b0c91398d0588f44d8f1ed5397a0a73b1286",
-                "reference": "c6b0b0c91398d0588f44d8f1ed5397a0a73b1286",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/1eb9ebafaf68b956af301367c9bea7c331a4f5b6",
+                "reference": "1eb9ebafaf68b956af301367c9bea7c331a4f5b6",
                 "shasum": ""
             },
             "require": {
@@ -1016,7 +1016,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-03T08:41:11+00:00"
+            "time": "2026-01-03T10:59:49+00:00"
         },
         {
             "name": "ghostwriter/config",
