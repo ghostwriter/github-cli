@@ -1,7 +1,7 @@
 {
     "name": "ghostwriter/github-cli",
     "description": "PHP wrapper for GitHub CLI (gh)",
-    "license": "BSD-4-Clause",
+    "license": "BSD-3-Clause",
     "type": "library",
     "keywords": [
         "ghostwriter",
