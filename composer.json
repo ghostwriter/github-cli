@@ -34,8 +34,8 @@
     "require": {
         "php": "~8.4.0 || ~8.5.0",
         "ext-mbstring": "*",
-        "ghostwriter/container": "^6.1.0",
-        "ghostwriter/shell": "^0.1.4"
+        "ghostwriter/container": "^6.1.1",
+        "ghostwriter/shell": "^0.1.5"
     },
     "require-dev": {
         "ext-xdebug": "*",
@@ -81,7 +81,7 @@
     "extra": {
         "ghostwriter": {
             "container": {
-                "definition": "Ghostwriter\\GitHubCli\\Container\\GitHubCliDefinition"
+                "provider": ["Ghostwriter\\GitHubCli\\Container\\GitHubCliProvider"]
             }
         },
         "thanks": {
