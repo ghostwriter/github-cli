@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Exception;
 
-use Ghostwriter\GitHubCli\Container\GitHubCliDefinition;
+use Ghostwriter\GitHubCli\Container\GitHubCliProvider;
 use Ghostwriter\GitHubCli\Exception\GitHubCliException;
 use Ghostwriter\GitHubCli\GitHubCli;
 use Ghostwriter\GitHubCli\Interface\GitHubCliExceptionInterface;
@@ -15,7 +15,7 @@ use Throwable;
 use function is_a;
 
 #[CoversClass(GitHubCliException::class)]
-#[CoversClass(GitHubCliDefinition::class)]
+#[CoversClass(GitHubCliProvider::class)]
 #[CoversClass(GitHubCli::class)]
 final class GitHubCliExceptionTest extends AbstractTestCase
 {
