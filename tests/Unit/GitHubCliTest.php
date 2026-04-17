@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests\Unit;
 
-use Ghostwriter\GitHubCli\Container\GitHubCliDefinition;
+use Ghostwriter\GitHubCli\Container\GitHubCliProvider;
 use Ghostwriter\GitHubCli\GitHubCli;
 use Ghostwriter\GitHubCli\Interface\GitHubCliInterface;
 use PHPUnit\Framework\Attributes\CoversClass;
@@ -12,7 +12,7 @@ use Throwable;
 
 use function is_a;
 
-#[CoversClass(GitHubCliDefinition::class)]
+#[CoversClass(GitHubCliProvider::class)]
 #[CoversClass(GitHubCli::class)]
 final class GitHubCliTest extends AbstractTestCase
 {
