@@ -11,11 +11,13 @@ use Ghostwriter\GitHubCli\Container\GitHubCliProvider;
 use Ghostwriter\GitHubCli\GitHubCli;
 use Ghostwriter\GitHubCli\Interface\GitHubCliInterface;
 use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\UsesClass;
 use Tests\Unit\AbstractTestCase;
 
 use function is_a;
 
 #[CoversClass(GitHubCliProvider::class)]
+#[UsesClass(GitHubCli::class)]
 final class GitHubCliProviderTest extends AbstractTestCase
 {
     public function testExtendsAbstractProvider(): void
