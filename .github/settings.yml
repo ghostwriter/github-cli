@@ -20,12 +20,6 @@
 "repository":
   "name": "github-cli"
   "description": "PHP wrapper for GitHub CLI (gh)"
-  "topics":
-    - "ghostwriter"
-    - "github-cli"
-    - "php"
-    - "github"
-    - "gh"
   "homepage": "https://github.com/ghostwriter/github-cli"
   "default_branch": "0.1.x"
   "allow_auto_merge": true
