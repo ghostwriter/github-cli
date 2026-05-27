@@ -53,7 +53,7 @@ Please see [docs/](./docs/) for more information on how to use this package.
 ### Credits
 
 - [Nathanael Esayeas](https://github.com/ghostwriter)
-- [All Contributors](https://github.com/ghostwriter/wip/contributors)
+- [All Contributors](https://github.com/ghostwriter/github-cli/contributors)
 
 ### Changelog
 
